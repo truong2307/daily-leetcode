@@ -13,6 +13,9 @@ namespace LeetcodeDaily
 
             //Palindrome number
             PalindromeNumberLeetCode.IsPalindrome(0);
+
+            //Roman ToI nteger
+            RomanToIntegerLeetCode.RomanToInt("III");
         }
     }
 }

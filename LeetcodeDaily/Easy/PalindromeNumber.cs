@@ -1,5 +1,8 @@
 ﻿namespace LeetcodeDaily.Easy
 {
+    /// <summary>
+    /// https://leetcode.com/problems/palindrome-number/
+    /// </summary>
     public static class PalindromeNumberLeetCode
     {
         public static bool IsPalindrome(int x)
