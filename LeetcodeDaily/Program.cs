@@ -16,6 +16,9 @@ namespace LeetcodeDaily
 
             //Roman ToI nteger
             RomanToIntegerLeetCode.RomanToInt("III");
+
+            //Longest Common Prefix
+            LongestCommonPrefixLeetCode.LongestCommonPrefix(new string[] { "flower", "flow", "flight" });
         }
     }
 }
