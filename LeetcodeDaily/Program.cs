@@ -1,5 +1,4 @@
 ﻿using LeetcodeDaily.Easy;
-using System;
 
 namespace LeetcodeDaily
 {
@@ -19,6 +18,9 @@ namespace LeetcodeDaily
 
             //Longest Common Prefix
             LongestCommonPrefixLeetCode.LongestCommonPrefix(new string[] { "flower", "flow", "flight" });
+
+            //Valid Parentheses
+            ValidParenthesesLeetCode.IsValid("()[]{}");
         }
     }
 }
