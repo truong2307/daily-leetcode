@@ -21,6 +21,11 @@ namespace LeetcodeDaily
 
             //Valid Parentheses
             ValidParenthesesLeetCode.IsValid("()[]{}");
+
+            //Merge Two Sorted Lists
+            var listNode1 = new ListNode(1, new ListNode(2, new ListNode(4)));
+            var listNode2 = new ListNode(1, new ListNode(3, new ListNode(4)));
+            MergeTwoSortedLists.MergeTwoLists(listNode1 , listNode2);
         }
     }
 }
