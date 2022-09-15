@@ -26,6 +26,10 @@ namespace LeetcodeDaily
             var listNode1 = new ListNode(1, new ListNode(2, new ListNode(4)));
             var listNode2 = new ListNode(1, new ListNode(3, new ListNode(4)));
             MergeTwoSortedLists.MergeTwoLists(listNode1 , listNode2);
+
+            //Remove Duplicates from Sorted Array
+            RemoveDuplicatesSortedArray.RemoveDuplicates(new int[] { 1, 1, 2 });
+
         }
     }
 }
