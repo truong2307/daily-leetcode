@@ -30,6 +30,8 @@ namespace LeetcodeDaily
             //Remove Duplicates from Sorted Array
             RemoveDuplicatesSortedArray.RemoveDuplicates(new int[] { 1, 1, 2 });
 
+            //Remove Element
+            RemoveElementLeetCode.RemoveElement(new int[] { 0, 1, 2, 2, 3, 0, 4, 2 }, 2);
         }
     }
 }
