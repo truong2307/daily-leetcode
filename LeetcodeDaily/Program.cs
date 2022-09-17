@@ -35,8 +35,9 @@ namespace LeetcodeDaily
 
             //Search Insert Position
             SearchInsertPosition.SearchInsert(new int[] { 1, 3, 5, 6 }, 5);
-            
 
+            //Length of Last Word
+            LengthofLastWordLeetCode.LengthOfLastWord("   fly me   to   the moon  ");
         }
     }
 }
