@@ -13,7 +13,7 @@ namespace LeetcodeDaily
             //Palindrome number
             PalindromeNumberLeetCode.IsPalindrome(0);
 
-            //Roman ToI nteger
+            //Roman To Integer
             RomanToIntegerLeetCode.RomanToInt("III");
 
             //Longest Common Prefix
@@ -32,6 +32,11 @@ namespace LeetcodeDaily
 
             //Remove Element
             RemoveElementLeetCode.RemoveElement(new int[] { 0, 1, 2, 2, 3, 0, 4, 2 }, 2);
+
+            //Search Insert Position
+            SearchInsertPosition.SearchInsert(new int[] { 1, 3, 5, 6 }, 5);
+            
+
         }
     }
 }
