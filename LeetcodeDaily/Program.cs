@@ -38,6 +38,9 @@ namespace LeetcodeDaily
 
             //Length of Last Word
             LengthofLastWordLeetCode.LengthOfLastWord("   fly me   to   the moon  ");
+
+            //Plus one
+            PlusOneLeetCode.PlusOne(new int[] { 9 });
         }
     }
 }
