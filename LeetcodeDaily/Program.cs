@@ -41,6 +41,9 @@ namespace LeetcodeDaily
 
             //Plus one
             PlusOneLeetCode.PlusOne(new int[] { 9 });
+
+            //Add Binary
+            AddBinaryLeetCode.AddBinary("1010", "1011");
         }
     }
 }
