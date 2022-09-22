@@ -1,4 +1,5 @@
-﻿using LeetcodeDaily.Easy;
+﻿
+using LeetcodeDaily.Easy;
 
 namespace LeetcodeDaily
 {
@@ -44,6 +45,10 @@ namespace LeetcodeDaily
 
             //Add Binary
             AddBinaryLeetCode.AddBinary("1010", "1011");
+
+            //Remove Duplicates from Sorted List
+            var listNode = new ListNode(1, new ListNode(1, new ListNode(1)));
+            RemoveDuplicatesSortedList.DeleteDuplicates(listNode);
         }
     }
 }

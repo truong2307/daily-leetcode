@@ -11,11 +11,11 @@ namespace LeetcodeDaily.Easy
     {
         public static string AddBinary(string a, string b)
         {
-            var rememberNum = new Stack<int>();
-            var result = new Stack<string>();
             string binary1, binary2, binary3;
+            var rememberNum = 0;
+            var result = new Stack<string>();
             var differnceSubtraction = Math.Abs(a.Length - b.Length);
-            int preRemember;
+
             if (a.Length > b.Length)
             {
                 binary1 = string.Join(string.Empty, a.Skip(differnceSubtraction));
@@ -33,40 +33,38 @@ namespace LeetcodeDaily.Easy
             {
                 var curVal1 = int.Parse(binary1[i].ToString());
                 var curVal2 = int.Parse(binary2[i].ToString());
-                preRemember = rememberNum.Any() ? rememberNum.Pop() : 0;
-                var sumBinary = curVal1 + curVal2 + preRemember;
+                var sumBinary = curVal1 + curVal2 + rememberNum;
 
                 switch (sumBinary)
                 {
                     case 0:
                         result.Push("0");
-                        rememberNum.Push(0);
+                        rememberNum = 0;
                         break;
                     case 2:
                         result.Push("0");
-                        rememberNum.Push(1);
+                        rememberNum = 1;
                         break;
 
                     case 1:
                         result.Push("1");
-                        rememberNum.Push(0);
+                        rememberNum = 0;
                         break;
 
                     default:
-                        result.Push(preRemember.ToString());
-                        rememberNum.Push(1);
+                        result.Push(rememberNum.ToString());
+                        rememberNum = 1;
                         break;
                 }
             }
 
-            preRemember = rememberNum.Any() ? rememberNum.Pop() : 0;
-            if (preRemember == 0)
+            if (rememberNum == 0)
             {
                 result.Push(binary3);
             }
             else
             {
-                var tempBinary = preRemember.ToString().PadLeft(binary3.Length, '0');
+                var tempBinary = rememberNum.ToString().PadLeft(binary3.Length, '0');
                 result.Push(AddBinary(tempBinary, binary3));
             }
 
