@@ -22,7 +22,6 @@
 
             } while (curNode != null);
 
-
             return head;
         }
     }

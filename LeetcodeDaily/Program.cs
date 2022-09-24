@@ -49,6 +49,10 @@ namespace LeetcodeDaily
             //Remove Duplicates from Sorted List
             var listNode = new ListNode(1, new ListNode(1, new ListNode(1)));
             RemoveDuplicatesSortedList.DeleteDuplicates(listNode);
+
+            //Merge Sorted Array
+            MergeSortedArray.Merge(new int[] {0 }, 0, new int[] {1}, 1);
+
         }
     }
 }
