@@ -55,6 +55,10 @@ namespace LeetcodeDaily
 
             //Binary Tree Inorder Traversal
             BinaryTreeInorderTraversal.InorderTraversal(new TreeNode(1, left: null, right: new TreeNode(2, left: new TreeNode(3))));
+
+            //Same Tree
+            SameTree.IsSameTree(new TreeNode(1, new TreeNode(2), new TreeNode(3)), new TreeNode(1, new TreeNode(2), new TreeNode(3)));
+
         }
     }
 }
