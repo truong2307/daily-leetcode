@@ -26,7 +26,7 @@ namespace LeetcodeDaily
             //Merge Two Sorted Lists
             var listNode1 = new ListNode(1, new ListNode(2, new ListNode(4)));
             var listNode2 = new ListNode(1, new ListNode(3, new ListNode(4)));
-            MergeTwoSortedLists.MergeTwoLists(listNode1 , listNode2);
+            MergeTwoSortedLists.MergeTwoLists(listNode1, listNode2);
 
             //Remove Duplicates from Sorted Array
             RemoveDuplicatesSortedArray.RemoveDuplicates(new int[] { 1, 1, 2 });
@@ -51,7 +51,7 @@ namespace LeetcodeDaily
             RemoveDuplicatesSortedList.DeleteDuplicates(listNode);
 
             //Merge Sorted Array
-            MergeSortedArray.Merge(new int[] {0 }, 0, new int[] {1}, 1);
+            MergeSortedArray.Merge(new int[] { 0 }, 0, new int[] { 1 }, 1);
 
             //Binary Tree Inorder Traversal
             BinaryTreeInorderTraversal.InorderTraversal(new TreeNode(1, left: null, right: new TreeNode(2, left: new TreeNode(3))));
@@ -59,6 +59,9 @@ namespace LeetcodeDaily
             //Same Tree
             SameTree.IsSameTree(new TreeNode(1, new TreeNode(2), new TreeNode(3)), new TreeNode(1, new TreeNode(2), new TreeNode(3)));
 
+            //Symmetric Tree
+            var symetricTreeTest = new TreeNode(1, new TreeNode(2, new TreeNode(3), new TreeNode(4)), new TreeNode(2,new TreeNode(4), new TreeNode(3)));
+            SymmetricTree.IsSymmetric(symetricTreeTest);
         }
     }
 }
