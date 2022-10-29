@@ -62,6 +62,10 @@ namespace LeetcodeDaily
             //Symmetric Tree
             var symetricTreeTest = new TreeNode(1, new TreeNode(2, new TreeNode(3), new TreeNode(4)), new TreeNode(2,new TreeNode(4), new TreeNode(3)));
             SymmetricTree.IsSymmetric(symetricTreeTest);
+
+            //Maximum Depth of Binary Tree
+            MaximumDepthBinaryTree.MaxDepth(new TreeNode(1, new TreeNode(2), new TreeNode(3)));
+
         }
     }
 }
