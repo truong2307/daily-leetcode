@@ -72,6 +72,9 @@ namespace LeetcodeDaily
 
             //Balanced Binary Tree
             BalancedBinaryTree.IsBalanced(new TreeNode(1, new TreeNode(2), new TreeNode(3)));
+
+            //Minimum Depth of Binary Tree
+            MinimumDepthOfBinaryTree.MinDepth(new TreeNode(1, new TreeNode(2), new TreeNode(3)));
         }
     }
 }
