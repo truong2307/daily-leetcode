@@ -1,5 +1,6 @@
 ﻿
 using LeetcodeDaily.Easy;
+using LeetcodeDaily.Models;
 
 namespace LeetcodeDaily
 {
@@ -68,6 +69,9 @@ namespace LeetcodeDaily
 
             //Convert Sorted Array to Binary Search Tree
             SortedArrayToBSTLeetCode.SortedArrayToBST(new int[] { 0,1,2,3,4 });
+
+            //Balanced Binary Tree
+            BalancedBinaryTree.IsBalanced(new TreeNode(1, new TreeNode(2), new TreeNode(3)));
         }
     }
 }

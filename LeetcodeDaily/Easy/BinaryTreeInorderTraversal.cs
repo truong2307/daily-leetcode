@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using LeetcodeDaily.Models;
+using System.Collections.Generic;
 
 namespace LeetcodeDaily.Easy
 {
@@ -29,19 +30,5 @@ namespace LeetcodeDaily.Easy
             return res;
         }
     }
-
-    public class TreeNode
-    {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-        public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
-        {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
 }
 

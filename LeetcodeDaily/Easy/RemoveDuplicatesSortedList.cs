@@ -1,4 +1,6 @@
-﻿namespace LeetcodeDaily.Easy
+﻿using LeetcodeDaily.Models;
+
+namespace LeetcodeDaily.Easy
 {
     public class RemoveDuplicatesSortedList
     {

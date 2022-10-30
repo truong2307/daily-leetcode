@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeetcodeDaily.Models;
+using System;
 
 namespace LeetcodeDaily.Easy
 {
